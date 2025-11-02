@@ -4,7 +4,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-BOT_TOKEN = os.environ.get 8511737410:AAEOveq7ceKVRtKehrXIH_-uGp-GVGW4BHA # token stored safely in Render
+BOT_TOKEN = 8511737410:AAEOveq7ceKVRtKehrXIH_-uGp-GVGW4BHA
 API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}/"
 
 @app.route(f"/{BOT_TOKEN}", methods=["POST"])
